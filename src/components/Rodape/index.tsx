@@ -8,7 +8,7 @@ const RodapeEstilizado = styled.footer`
   height: 100%;
   color: white;
   padding: 1em;
-  background-color: var(--azul-claro);
+  background-color: var(--azul-escuro);
   text-align: center;
 `;
 
@@ -23,15 +23,15 @@ const ItemEstilizado = styled.li`
   list-style-type: none;
 `;
 
-const ImagemEstilizada = styled.img`
-  height: 20px;
-  width: 10px;
-  background-color: white;
-  border-style: inherit;
-  border-color: white;
-  border-radius: 20%;
-  padding: 3px 6px 3px 6px;
-`;
+// const ImagemEstilizada = styled.img`
+//   height: 20px;
+//   width: 10px;
+//   background-color: white;
+//   border-style: inherit;
+//   border-color: white;
+//   border-radius: 20%;
+//   padding: 3px 6px 3px 6px;
+// `;
 
 function Rodape() {
   return (
@@ -39,7 +39,7 @@ function Rodape() {
       <ListaEstilizada>
         <ItemEstilizado>
           <a href="#">
-            <ImagemEstilizada src={facebook} alt="logo do facebook" />
+            <img src={facebook} alt="logo do facebook" />
           </a>
         </ItemEstilizado>
         <ItemEstilizado>
