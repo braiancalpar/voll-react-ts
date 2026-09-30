@@ -23,13 +23,23 @@ const ItemEstilizado = styled.li`
   list-style-type: none;
 `;
 
+const ImagemEstilizada = styled.img`
+  height: 20px;
+  width: 10px;
+  background-color: white;
+  border-style: inherit;
+  border-color: white;
+  border-radius: 20%;
+  padding: 3px 6px 3px 6px;
+`;
+
 function Rodape() {
   return (
     <RodapeEstilizado>
       <ListaEstilizada>
         <ItemEstilizado>
           <a href="#">
-            <img src={facebook} alt="logo do facebook" />
+            <ImagemEstilizada src={facebook} alt="logo do facebook" />
           </a>
         </ItemEstilizado>
         <ItemEstilizado>
