@@ -1,6 +1,6 @@
+import { Rating } from "@mui/material";
 import styled from "styled-components";
 import IProfissional from "../../../types/IProfissional";
-import { Rating } from "@mui/material";
 
 const ContainerEstilizado = styled.div`
   flex: 40%;
