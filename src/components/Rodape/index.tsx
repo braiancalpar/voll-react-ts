@@ -8,7 +8,7 @@ const RodapeEstilizado = styled.footer`
   height: 100%;
   color: white;
   padding: 1em;
-  background-color: var(--azul-claro);
+  background-color: var(--azul-escuro);
   text-align: center;
 `;
 
@@ -22,6 +22,16 @@ const ListaEstilizada = styled.ul`
 const ItemEstilizado = styled.li`
   list-style-type: none;
 `;
+
+// const ImagemEstilizada = styled.img`
+//   height: 20px;
+//   width: 10px;
+//   background-color: white;
+//   border-style: inherit;
+//   border-color: white;
+//   border-radius: 20%;
+//   padding: 3px 6px 3px 6px;
+// `;
 
 function Rodape() {
   return (
